@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>crypt-introduction</title>
+      <link href="/2024/02/17/crypt-introduction/"/>
+      <url>/2024/02/17/crypt-introduction/</url>
+      
+        <content type="html"><![CDATA[<p>This blog introduces the basic concepts and history of cryptography. </p><span id="more"></span><h2 id="what-is-cryptography"><a href="#what-is-cryptography" class="headerlink" title="what is cryptography"></a>what is cryptography</h2><blockquote><p>cryptography is the science of writing with goal of hiding the meaning of the message.</p><blockquote><p>provides the basic building blocks to construct secure systems. <strong>However</strong>, it doesn’t provide solutions to all security problems. It is only reliable if implemented properly.</p></blockquote><p><strong>Cryptanalysis</strong> - analyzing (breaking)  secrets.</p><blockquote><p><em>Cryptanalysis is what attacker does. Decipher or decryption is what legitimate receiver does.</em></p></blockquote></blockquote><h2 id="A-brief-history"><a href="#A-brief-history" class="headerlink" title="A brief history"></a>A brief history</h2><blockquote><p>The history of cryptography is fascinating, encompassing ancient techniques developed for secure communication, evolving through the ages to the sophisticated digital encryption methods we use today. </p><p><strong>Ancient Cryptography</strong></p><blockquote><p>The earliest forms of cryptography were simple and manual. One of the oldest known methods is the Caesar cipher, attributed to Julius Caesar, who used it to communicate with his generals. This method involved shifting the letters of the alphabet by a set number to encode messages.</p></blockquote><p><strong>The Middle Ages</strong></p><blockquote><p>During the Middle Ages, cryptography became more sophisticated. The scytale, an encryption device used by the Spartans, consisted of a cylinder around which a strip of parchment was wound. The message could only be read when wrapped around a cylinder of the same diameter.</p></blockquote><p><strong>The Renaissance</strong></p><blockquote><p>The Renaissance saw significant advancements in cryptography. Leon Battista Alberti is credited with inventing the polyalphabetic cipher, a more complex system that used multiple alphabets to encrypt a message. This method significantly increased the difficulty of decryption without the key.</p></blockquote><p><strong>The 20th Century</strong></p><blockquote><p>The 20th century witnessed the rise of mechanical and then electronic cryptographic devices. The most famous among these was the Enigma machine, used by Germany during World War II. It was a sophisticated piece of machinery that provided a high level of security, which was eventually broken by Allied cryptanalysts, including Alan Turing.</p></blockquote><p><strong>Modern Cryptography</strong></p><blockquote><p>Today, cryptography is largely computer-based, with complex algorithms ensuring the security of digital communications. The invention of public-key cryptography in the 1970s by Whitfield Diffie and Martin Hellman marked a revolutionary shift, enabling secure communication between parties without sharing a secret key.</p></blockquote></blockquote><p><img src="/../img/crypt-introduction/cryptography_history-1708130357907-1.png" alt="cryptography_history"></p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a timeline that illustrates the history of cryptography, from its ancient beginnings with the Caesar cipher, through significant developments like the scytale, the Alberti cipher disk, and the Enigma machine, up to modern public-key cryptography.</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> cryptography </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cryptography-history </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>java 1</title>
       <link href="/2024/02/03/java-1/"/>
       <url>/2024/02/03/java-1/</url>
