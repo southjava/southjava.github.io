@@ -6,7 +6,7 @@
   <link href="http://southjava.github.io/atom.xml" rel="self"/>
   
   <link href="http://southjava.github.io/"/>
-  <updated>2024-02-17T01:00:14.131Z</updated>
+  <updated>2024-02-17T01:46:18.494Z</updated>
   <id>http://southjava.github.io/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>classic cryptographic systems</title>
+    <link href="http://southjava.github.io/2024/02/17/classic-cryptographic-systems/"/>
+    <id>http://southjava.github.io/2024/02/17/classic-cryptographic-systems/</id>
+    <published>2024-02-17T01:04:37.000Z</published>
+    <updated>2024-02-17T01:46:18.494Z</updated>
+    
+    <content type="html"><![CDATA[<p>This blog describes the principles of classic ciphers, perform cryptanalysis on classic ciphers, describe the principles of Steganography and the basic terminology of modern cryptosystems. Really a h-h-h-huge workload. Enjoy your crypto-journey. XD</p><span id="more"></span><!-- toc --><!-- tocstop -->]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;This blog describes the principles of classic ciphers, perform cryptanalysis on classic ciphers, describe the principles of Steganography and the basic terminology of modern cryptosystems. Really a h-h-h-huge workload. Enjoy your crypto-journey. XD&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="cryptography" scheme="http://southjava.github.io/categories/cryptography/"/>
+    
+    
+    <category term="classic cryptographic systems" scheme="http://southjava.github.io/tags/classic-cryptographic-systems/"/>
+    
+  </entry>
+  
+  <entry>
     <title>crypt-introduction</title>
     <link href="http://southjava.github.io/2024/02/17/crypt-introduction/"/>
     <id>http://southjava.github.io/2024/02/17/crypt-introduction/</id>
     <published>2024-02-17T00:07:06.000Z</published>
-    <updated>2024-02-17T01:00:14.131Z</updated>
+    <updated>2024-02-17T01:47:29.920Z</updated>
     
-    <content type="html"><![CDATA[<p>This blog introduces the basic concepts and history of cryptography. :)</p><span id="more"></span><h2 id="what-is-cryptography"><a href="#what-is-cryptography" class="headerlink" title="what is cryptography"></a>what is cryptography</h2><blockquote><p>cryptography is the science of writing with goal of hiding the meaning of the message.</p><blockquote><p>provides the basic building blocks to construct secure systems. <strong>However</strong>, it doesn’t provide solutions to all security problems. It is only reliable if implemented properly.</p></blockquote><p><strong>Cryptanalysis</strong> - analyzing (breaking)  secrets.</p><blockquote><p><em>Cryptanalysis is what attacker does. Decipher or decryption is what legitimate receiver does.</em></p></blockquote></blockquote><h2 id="A-brief-history"><a href="#A-brief-history" class="headerlink" title="A brief history"></a>A brief history</h2><blockquote><p>The history of cryptography is fascinating, encompassing ancient techniques developed for secure communication, evolving through the ages to the sophisticated digital encryption methods we use today. </p><p><strong>Ancient Cryptography</strong></p><blockquote><p>The earliest forms of cryptography were simple and manual. One of the oldest known methods is the Caesar cipher, attributed to Julius Caesar, who used it to communicate with his generals. This method involved shifting the letters of the alphabet by a set number to encode messages.</p></blockquote><p><strong>The Middle Ages</strong></p><blockquote><p>During the Middle Ages, cryptography became more sophisticated. The scytale, an encryption device used by the Spartans, consisted of a cylinder around which a strip of parchment was wound. The message could only be read when wrapped around a cylinder of the same diameter.</p></blockquote><p><strong>The Renaissance</strong></p><blockquote><p>The Renaissance saw significant advancements in cryptography. Leon Battista Alberti is credited with inventing the polyalphabetic cipher, a more complex system that used multiple alphabets to encrypt a message. This method significantly increased the difficulty of decryption without the key.</p></blockquote><p><strong>The 20th Century</strong></p><blockquote><p>The 20th century witnessed the rise of mechanical and then electronic cryptographic devices. The most famous among these was the Enigma machine, used by Germany during World War II. It was a sophisticated piece of machinery that provided a high level of security, which was eventually broken by Allied cryptanalysts, including Alan Turing.</p></blockquote><p><strong>Modern Cryptography</strong></p><blockquote><p>Today, cryptography is largely computer-based, with complex algorithms ensuring the security of digital communications. The invention of public-key cryptography in the 1970s by Whitfield Diffie and Martin Hellman marked a revolutionary shift, enabling secure communication between parties without sharing a secret key.</p></blockquote></blockquote><p><img src="/../img/crypt-introduction/cryptography_history-1708130357907-1.png" alt="cryptography_history"></p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a timeline that illustrates the history of cryptography, from its ancient beginnings with the Caesar cipher, through significant developments like the scytale, the Alberti cipher disk, and the Enigma machine, up to modern public-key cryptography.</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>This blog introduces the basic concepts and history of cryptography. :)</p><span id="more"></span><!-- toc --><ul><li><a href="#what-is-cryptography">what is cryptography</a></li><li><a href="#a-brief-history">A brief history</a><ul><li><a href="#ancient-cryptography"><strong>Ancient Cryptography</strong></a></li><li><a href="#the-middle-ages"><strong>The Middle Ages</strong></a></li><li><a href="#the-renaissance"><strong>The Renaissance</strong></a></li><li><a href="#the-20th-century"><strong>The 20th Century</strong></a></li><li><a href="#modern-cryptography"><strong>Modern Cryptography</strong></a></li></ul></li></ul><!-- tocstop --><h1><span id="what-is-cryptography">what is cryptography</span></h1><p>cryptography is the science of writing with goal of hiding the meaning of the message.</p><blockquote><p>provides the basic building blocks to construct secure systems. <strong>However</strong>, it doesn’t provide solutions to all security problems. It is only reliable if implemented properly.</p></blockquote><p><strong>Cryptanalysis</strong> - analyzing (breaking)  secrets.</p><blockquote><p><em>Cryptanalysis is what attacker does. Decipher or decryption is what legitimate receiver does.</em></p></blockquote><h1><span id="a-brief-history">A brief history</span></h1><p>The history of cryptography is fascinating, encompassing ancient techniques developed for secure communication, evolving through the ages to the sophisticated digital encryption methods we use today. </p><h2><span id="ancient-cryptography"><strong>Ancient Cryptography</strong></span></h2><blockquote><p>The earliest forms of cryptography were simple and manual. One of the oldest known methods is the Caesar cipher, attributed to Julius Caesar, who used it to communicate with his generals. This method involved shifting the letters of the alphabet by a set number to encode messages.</p></blockquote><h2><span id="the-middle-ages"><strong>The Middle Ages</strong></span></h2><blockquote><p>During the Middle Ages, cryptography became more sophisticated. The scytale, an encryption device used by the Spartans, consisted of a cylinder around which a strip of parchment was wound. The message could only be read when wrapped around a cylinder of the same diameter.</p></blockquote><h2><span id="the-renaissance"><strong>The Renaissance</strong></span></h2><blockquote><p>The Renaissance saw significant advancements in cryptography. Leon Battista Alberti is credited with inventing the polyalphabetic cipher, a more complex system that used multiple alphabets to encrypt a message. This method significantly increased the difficulty of decryption without the key.</p></blockquote><h2><span id="the-20th-century"><strong>The 20th Century</strong></span></h2><blockquote><p>The 20th century witnessed the rise of mechanical and then electronic cryptographic devices. The most famous among these was the Enigma machine, used by Germany during World War II. It was a sophisticated piece of machinery that provided a high level of security, which was eventually broken by Allied cryptanalysts, including Alan Turing.</p></blockquote><h2><span id="modern-cryptography"><strong>Modern Cryptography</strong></span></h2><blockquote><p>Today, cryptography is largely computer-based, with complex algorithms ensuring the security of digital communications. The invention of public-key cryptography in the 1970s by Whitfield Diffie and Martin Hellman marked a revolutionary shift, enabling secure communication between parties without sharing a secret key.</p></blockquote><p><img src="/../img/crypt-introduction/cryptography_history-1708130357907-1.png" alt="cryptography_history"></p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a timeline that illustrates the history of cryptography, from its ancient beginnings with the Caesar cipher, through significant developments like the scytale, the Alberti cipher disk, and the Enigma machine, up to modern public-key cryptography.</span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">&lt;p&gt;This blog introduces the basic concepts and history of cryptography. :)&lt;/p&gt;</summary>
@@ -34,27 +55,6 @@
     
     
     <category term="cryptography-history" scheme="http://southjava.github.io/tags/cryptography-history/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>java 1</title>
-    <link href="http://southjava.github.io/2024/02/03/java-1/"/>
-    <id>http://southjava.github.io/2024/02/03/java-1/</id>
-    <published>2024-02-03T19:31:13.000Z</published>
-    <updated>2024-02-03T20:02:23.319Z</updated>
-    
-    <content type="html"><![CDATA[<p>This article intends to record the important things about java during rebecca’s first study. Keep updating. XD.</p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;This article intends to record the important things about java during rebecca’s first study. Keep updating. XD.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="java" scheme="http://southjava.github.io/categories/java/"/>
-    
-    
-    <category term="java" scheme="http://southjava.github.io/tags/java/"/>
     
   </entry>
   
